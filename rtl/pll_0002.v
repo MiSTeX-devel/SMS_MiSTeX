@@ -222,7 +222,6 @@ module  pll_0002(
 		.pll_bwctrl(2000),
 		.pll_output_clk_frequency("429.5454 MHz"),
 		.pll_fractional_division("2537930535"),
-		.mimic_fbclk_type("none"),
 		.pll_fbclk_mux_1("glb"),
 		.pll_fbclk_mux_2("m_cnt"),
 		.pll_m_cnt_in_src("ph_mux_clk"),
