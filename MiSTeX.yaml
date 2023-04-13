@@ -1,0 +1,29 @@
+mainfile: SMS.sv
+use-template-sys: True
+
+defines:
+  MISTER_FB: 1
+
+sourcedirs:
+  - sys
+  - rtl
+  - rtl/T80
+  - rtl/VM2413
+  - rtl/jt89
+
+quartus:
+  sourcefiles:
+    - Arcade-QBert.sdc
+    - sys/sys_top.sdc
+    - sys/pll_hdmi_adj.vhd
+    - sys/altera_pll_reconfig_top.v
+    - sys/altera_pll_reconfig_core.v
+    - sys/pll_cfg.v
+    - rtl/pll_0002.v
+    - sys/pll_audio_0002.v
+    - sys/pll_hdmi_0002.v
+
+vivado:
+  sourcefiles:
+    - rtl/pll_0002-xilinx7.v
+    - sys/pll_audio_0002-xilinx7.v
