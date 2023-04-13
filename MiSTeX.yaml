@@ -13,7 +13,6 @@ sourcedirs:
 
 quartus:
   sourcefiles:
-    - Arcade-QBert.sdc
     - sys/sys_top.sdc
     - sys/pll_hdmi_adj.vhd
     - sys/altera_pll_reconfig_top.v
