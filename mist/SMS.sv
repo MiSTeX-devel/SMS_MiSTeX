@@ -71,7 +71,7 @@ localparam MAX_SPPL = 7;
 localparam SP64     = 1'b0;
 `endif
 
-`include "build_id.v"
+`include "build_id.vh"
 parameter CONF_STR = {
 	"SMS;;",
 	"F,BINSMSGG SG ,Load;",

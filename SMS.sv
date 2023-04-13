@@ -254,7 +254,7 @@ video_freak video_freak
 // 0123456789ABCDEFGHIJKLMNOPQRSTUV 0123456789ABCDEFGHIJKLMNOPQRSTUV
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXX       XXXXX
 
-`include "build_id.v"
+`include "build_id.vh"
 parameter CONF_STR = {
 	"SMS;;",
 	"-;",

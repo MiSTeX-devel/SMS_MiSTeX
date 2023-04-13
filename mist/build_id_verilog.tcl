@@ -5,7 +5,7 @@
 #
 # Generates a Verilog module that contains a timestamp,
 # from the current build. These values are available from the build_date, build_time,
-# physical_address, and host_name output ports of the build_id module in the build_id.v
+# physical_address, and host_name output ports of the build_id module in the build_id.vh
 # Verilog source file.
 #
 # ================================================================================
@@ -17,7 +17,7 @@ proc generateBuildID_Verilog {} {
 	set buildTime [ clock format [ clock seconds ] -format %H%M%S ]
 
 	# Create a Verilog file for output
-	set outputFileName "build_id.v"
+	set outputFileName "build_id.vh"
 	set outputFile [open $outputFileName "w"]
 
 	# Output the Verilog source
